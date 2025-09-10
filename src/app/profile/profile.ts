@@ -8,10 +8,11 @@ import { NgOptimizedImage } from '@angular/common';
   imports: [ NgOptimizedImage ]
 })
 export class ProfileComponent{
-  name: string = "Arjun Singh";
-role: string = "Software Developer";
-location: string = "Bengaluru, India";
-linkedinUrl: string = "https://www.linkedin_profile_url.com";
-githubUrl: string = "https://github_profile_url.com";
-imageUrl="https://static-assets.codecademy.com/Courses/learn-angular/01-angular-introduction/images/profile-picture.jpg"
+  name: string = "Abid Hossain";
+role: string = "IT Student";
+location: string = "Perugia, Italy";
+linkedinUrl: string = "https://www.linkedin.com/in/agent017-gaming/";
+githubUrl: string = "https://github.com/Agent017-Gaming";
+profileImage: string = 'assets/my-photo.jpg';
+
 }

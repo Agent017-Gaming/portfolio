@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class ProjectComponent {
   projects = [
-    { id: 1, name: 'E-commerce Site', description: 'An online store with product listings, shopping cart, and checkout functionality.', status: 'Completed'},
-    { id: 2, name: 'Blog Platform', description: 'A CMS-driven blog platform supporting multiple users and posts.', status: 'Working'},
-    { id: 3, name: 'Weather App', description: 'A web app displaying real-time weather data using external API.', status: 'Working'}
+    { id: 1, name: 'Rock-paper-Scissor game', description: 'Just a game between you and your cpu', status: 'Completed'},
+    { id: 2, name: 'Portfolio', description: 'A portfolio completely build on Angular', status: 'Working'},
+    { id: 3, name: 'Calculator', description: 'A calculator which a user can get area\'s from diffrent types of shapes', status: 'Completed'}
   ];
 }
